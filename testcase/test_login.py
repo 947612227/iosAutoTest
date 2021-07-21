@@ -55,7 +55,7 @@ class TestCase(unittest.TestCase):
         #定位输入手机号的编辑框
         cs2 = self.wda(self.driver, "className", "XCUIElementTypeTextField", "定位手机号")
         cs2.clear()
-        phone = "13488883948"
+        phone = "13488888888"
         print("手机号:", phone)
         cs2.send_keys(phone)
 
